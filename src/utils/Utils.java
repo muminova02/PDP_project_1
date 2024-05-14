@@ -16,9 +16,14 @@ public interface Utils {
         return scannerInt.nextInt();
     }
 
-
-
-
-
+    static int getInt(String text) {
+        try {
+            System.out.println(text);
+            String n = scannerStr.nextLine();
+            return Integer.parseInt(n);
+        } catch (Exception e) {
+            return getInt(text);
+        }
+    }
 
 }

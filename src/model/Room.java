@@ -5,6 +5,4 @@ public class Room {
     private String  username;
 
 
-
-    private ;
 }

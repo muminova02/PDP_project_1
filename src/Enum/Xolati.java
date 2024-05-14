@@ -1,6 +1,6 @@
 package Enum;
 
-public enum Xolati {
-    Tamirlanmoqda,
+    public enum Xolati {
+        TAMIRLANMOQDA,
 
-}
+    }
